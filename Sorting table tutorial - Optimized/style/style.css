@@ -1,0 +1,43 @@
+* {
+  font-family: Consolas;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
+table {
+  background: white;
+  border-radius: 6px;
+  max-width: 50em;
+  width: 100%;
+  margin: auto;
+}
+
+table th {
+  color: #fcfcfc;
+  font-size: 1em;
+}
+
+table td {
+  font-size: 1em;
+}
+
+thead {
+  background: linear-gradient(90deg, #1A2632, #73283E);
+}
+
+thead th {
+  font-size: 1em;
+}
+
+table tr {
+  height: 4em;
+}
+
+table tr:last-child {
+  border: 0;
+}
